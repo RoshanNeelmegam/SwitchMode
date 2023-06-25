@@ -7,11 +7,10 @@
   - [Usage](#usage)
     - [Snapshots](#snapshots)
   - [Updates](#updates)
-  - [Feature Requests \& BUGs](#feature-requests--bugs)
 
 ## Overview
 
-Script that takes in a show tech file and creates an interface similar to the switch CLI for better troubleshooting.
+Script that takes in a show tech file from Cisco/Arista devices and creates an interface similar to the switch CLI for better troubleshooting.
 
 ### Current Features
 
@@ -146,8 +145,5 @@ show interfaces transceiver tuning detail
 
 ## Updates
 
-- Switch mode now supports command shortcuts partially.
-
-## Feature Requests & BUGs
-
-Please use [this document](https://docs.google.com/document/d/1Q3eoH3ynrmpqYQKKeLTei0jDfon1XjQioH8IpdOBtZU/edit?usp=sharing) for filing any BUGs or feautre Requests (RFEs).
+- Switch mode now supports command shortcuts and autocomplete partially.
+- Support for ipv4 route lookup.
